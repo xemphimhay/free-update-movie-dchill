@@ -17,17 +17,17 @@ class ThemeDongChillServiceProvider extends ServiceProvider
 
         $this->publishes([
             __DIR__ . '/../resources/assets' => public_path('themes/dongchill')
-        ], 'motchill-assets');
+        ], 'dongchill-assets');
     }
 
     protected function setupDefaultThemeCustomizer()
     {
         config(['themes' => array_merge(config('themes', []), [
-            'motchill' => [
+            'dongchill' => [
                 'name' => 'DongChill',
                 'author' => 'opdlnf01@gmail.com',
                 'package_name' => 'ggg3/dongchill-mod',
-                'publishes' => ['motchill-assets'],
+                'publishes' => ['dongchill-assets'],
                 'preview_image' => '',
                 'options' => [
                     [
