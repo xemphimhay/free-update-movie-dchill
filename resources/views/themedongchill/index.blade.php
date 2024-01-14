@@ -56,7 +56,7 @@
 @endsection
 
 @push('scripts')
-    <script type="text/javascript" src="/themes/motchill/js/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="/themes/dongchill/js/owl.carousel.min.js"></script>
     <script>
         $(document).ready(function() {
             $("#film_hot").owlCarousel({

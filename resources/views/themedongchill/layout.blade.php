@@ -36,27 +36,27 @@
 @endphp
 
 @push('header')
-    <link rel="stylesheet" type="text/css" href="/themes/motchill/css/owl.carousel.css" />
+    <link rel="stylesheet" type="text/css" href="/themes/dongchill/css/owl.carousel.css" />
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,300,500" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" type="text/css" href="/themes/motchill/css/font-face.css?v=1.3.1" />
-    <link rel="stylesheet" type="text/css" href="/themes/motchill/css/font-awesome.css" />
-    <link rel="stylesheet" type="text/css" href="/themes/motchill/css/bootstrap.min.css" />
-    <link rel="stylesheet" type="text/css" href="/themes/motchill/css/jquery-ui.min.css" />
-    <link rel="stylesheet" type="text/css" href="/themes/motchill/css/default.css?v=0.3.9" />
-    <link rel="stylesheet" type="text/css" href="/themes/motchill/css/styles.css?v=1.1.9" />
-    <link rel="stylesheet" type="text/css" href="/themes/motchill/css/responsive.css?v=1.0.5" />
+    <link rel="stylesheet" type="text/css" href="/themes/dongchill/css/font-face.css?v=1.3.1" />
+    <link rel="stylesheet" type="text/css" href="/themes/dongchill/css/font-awesome.css" />
+    <link rel="stylesheet" type="text/css" href="/themes/dongchill/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="/themes/dongchill/css/jquery-ui.min.css" />
+    <link rel="stylesheet" type="text/css" href="/themes/dongchill/css/default.css?v=0.3.9" />
+    <link rel="stylesheet" type="text/css" href="/themes/dongchill/css/styles.css?v=1.1.9" />
+    <link rel="stylesheet" type="text/css" href="/themes/dongchill/css/responsive.css?v=1.0.5" />
     @if(!(new \Jenssegers\Agent\Agent())->isDesktop())
-        <link rel="stylesheet" type="text/css" href="/themes/motchill/css/ipad.css?v=1.0.5" />
+        <link rel="stylesheet" type="text/css" href="/themes/dongchill/css/ipad.css?v=1.0.5" />
     @endif
-    <link rel="stylesheet" type="text/css" href="/themes/motchill/css/custom.css" />
-    <script type="text/javascript" src="/themes/motchill/js/jquery.min.js"></script>
-    <script type="text/javascript" src="/themes/motchill/js/jquery.slimscroll.min.js"></script>
-    <script type="text/javascript" src="/themes/motchill/js/bootstrap2.min.js"></script>
-    <script type="text/javascript" src="/themes/motchill/js/jquery-ui.min.js"></script>
-    <script type="text/javascript" src="/themes/motchill/js/jquery.lazyload.min.js"></script>
-    <script type="text/javascript" src="/themes/motchill/js/jquery.core.min.js"></script>
-    <script type="text/javascript" src="/themes/motchill/js/functions.js?v=2.0.1"></script>
-    <script type="text/javascript" src="/themes/motchill/js/js.cookie.js?v=2.1"></script>
+    <link rel="stylesheet" type="text/css" href="/themes/dongchill/css/custom.css" />
+    <script type="text/javascript" src="/themes/dongchill/js/jquery.min.js"></script>
+    <script type="text/javascript" src="/themes/dongchill/js/jquery.slimscroll.min.js"></script>
+    <script type="text/javascript" src="/themes/dongchill/js/bootstrap2.min.js"></script>
+    <script type="text/javascript" src="/themes/dongchill/js/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="/themes/dongchill/js/jquery.lazyload.min.js"></script>
+    <script type="text/javascript" src="/themes/dongchill/js/jquery.core.min.js"></script>
+    <script type="text/javascript" src="/themes/dongchill/js/functions.js?v=2.0.1"></script>
+    <script type="text/javascript" src="/themes/dongchill/js/js.cookie.js?v=2.1"></script>
 @endpush
 
 @section('body')
@@ -103,7 +103,7 @@
     @if (get_theme_option('ads_catfish'))
         {!! get_theme_option('ads_catfish') !!}
     @endif
-    <script src="/themes/motchill/js/jquery.raty.js"></script>
+    <script src="/themes/dongchill/js/jquery.raty.js"></script>
     <script>
         $(document).ready(function() {
             $('.top-star').raty({

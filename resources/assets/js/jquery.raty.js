@@ -450,7 +450,7 @@
         noRatedMsg: 'Not rated yet!',
         number: 10,
         numberMax: 20,
-        path: '/themes/motchill/images/',
+        path: '/themes/dongchill/images/',
         precision: false,
         readOnly: false,
         round: { down: .25, full: .6, up: .76 },

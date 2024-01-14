@@ -293,8 +293,8 @@
     <script type="text/javascript">
         const URL_POST_RATING = '{{ route('movie.rating', ['movie' => $currentMovie->slug]) }}';
     </script>
-    <script type="text/javascript" src="/themes/motchill/js/filmdetail.js?v=1.2.2"></script>
-    <script type="text/javascript" src="/themes/motchill/js/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="/themes/dongchill/js/filmdetail.js?v=1.2.2"></script>
+    <script type="text/javascript" src="/themes/dongchill/js/owl.carousel.min.js"></script>
     <script>
         $(document).ready(function() {
             $("#film_related").owlCarousel({

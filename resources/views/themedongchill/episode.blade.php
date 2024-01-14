@@ -176,8 +176,8 @@
 @endsection
 
 @push('scripts')
-    <script src="/themes/motchill/player/js/p2p-media-loader-core.min.js"></script>
-    <script src="/themes/motchill/player/js/p2p-media-loader-hlsjs.min.js"></script>
+    <script src="/themes/dongchill/player/js/p2p-media-loader-core.min.js"></script>
+    <script src="/themes/dongchill/player/js/p2p-media-loader-hlsjs.min.js"></script>
 
     <script src="/js/jwplayer-8.9.3.js"></script>
     <script src="/js/hls.min.js"></script>
@@ -416,7 +416,7 @@
     <script type="text/javascript">
         const URL_POST_RATING = '{{ route('movie.rating', ['movie' => $currentMovie->slug]) }}';
     </script>
-    <script type="text/javascript" src="/themes/motchill/js/filmdetail.js?v=1.2.2"></script>
+    <script type="text/javascript" src="/themes/dongchill/js/filmdetail.js?v=1.2.2"></script>
 
     {!! setting('site_scripts_facebook_sdk') !!}
 @endpush
